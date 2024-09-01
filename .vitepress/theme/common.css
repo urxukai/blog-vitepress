@@ -1,0 +1,74 @@
+/* 内嵌的推文 */
+.twitter-tweet {
+  margin: 10px auto;
+}
+
+:root {
+  --vp-c-text-10: #656973;
+  --vp-c-text-11: #000000;
+  --vp-c-bg-10: #eff2f5;
+}
+.dark {
+  --vp-c-text-10: #dedfe3;
+  --vp-c-text-11: #ffffff;
+  --vp-c-bg-10: #22272e;
+}
+
+/* 左边菜单-分组标题 */
+.nav .VPSidebarItem .item h2.text {
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: number;
+  src: url(https://srd.e-jt.cn/static/fonts/SFUDINENGSCHRIFT.TTF);
+}
+
+/**
+ * 首页标题渐变动画
+ * -------------------------------------------------------------------------- */
+.VPContent .clip {
+  background: -webkit-linear-gradient(315deg, rgb(210, 86, 53) 10%, #41d1ff 50%, #bd34fe 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* https://www.iconfont.cn/fonts/detail?spm=a313x.fonts_index.i1.d9df05512.24963a81myBL5X&cnid=fXpbnNvHu1TN */
+/* @font-face {
+  font-family: 'Nabla Regular';
+  src: url('/font/ktL80j27XLC0/9C7vXKufVgtl.woff2') format('woff2'), url('/font/ktL80j27XLC0/9C7vXKufVgtl.woff') format('woff');
+  font-display: swap;
+} */
+
+/* HYPixel11pxU-2 */
+@font-face {
+  font-family: HYPixel;
+  src: url('https://static.onev.top/font/HYPixel.ttf');
+}
+
+.VPNavBarTitle .title {
+  font-family: HYPixel;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(315deg, rgb(210, 86, 53) 10%, #41d1ff 50%, #bd34fe 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
