@@ -1,6 +1,6 @@
 ---
 title: IO.NET（$IO)
-description: Solana 生态中第一个可组合的生息资产与积分空投的杠杆收益聚合器，帮助用户解锁 Solana 生态中每个生息资产的潜在收益并为每个积分空投参与者提供适合自己的收益策，作为 Solana DeFi 生态中的收益层。
+description: io.net 是一个去中心化计算网络，支持在 Solana 区块链上开发、执行和扩展 ML 应用程序，将 100 万个 GPU 组合在一起，形成世界上最大的 GPU 集群和 DePIN.io.net 聚合来自未充分利用的资源（例如独立数据中心、加密矿工以及 Filecoin、Render 等加密项目）的 GPU 来解决这个问题，这些资源结合在去中心化物理基础设施网络 (DePIN) 中，使工程师能够在可访问、可定制、经济高效且易于实施的系统中获得大量计算能力。
 ---
 
 <PageHeader
