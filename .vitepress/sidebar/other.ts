@@ -10,6 +10,7 @@ export const other = [
       { text: '网页中嵌入Twitter文章', link: '/other/twitter.md' },
       { text: '极空间上安装iStoreOS', link: '/other/极空间上安装iStoreOS.md' },
       { text: '极空间部署UpSnap', link: '/other/极空间部署UpSnap.md' },
+      { text: '翻译插件与翻译工具', link: '/other/翻译插件与翻译工具.md' },
     ]
   }
 ]
