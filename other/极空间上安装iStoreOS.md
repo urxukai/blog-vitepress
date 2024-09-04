@@ -59,3 +59,13 @@ quickstart
 - 添加 DNS 为旁路由 IP
 
 > 安装 iStoreOS 参考地址：https://zhuanlan.zhihu.com/p/703547359
+
+## 极空间Docker代理设置后不生效
+原因：
+因为openClash内网代理需要设置账号密码，而Docker代理设置里不能输账号密码
+
+解决办法：
+服务 :arrow_right: openClash :arrow_right: 覆写设置 :arrow_right: 设置 SOCKS5/HTTP(S) 认证信息
+取消启用
+
+![iStoreOS](/images/极空间/openclash.png)
