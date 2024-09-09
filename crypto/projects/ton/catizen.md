@@ -27,6 +27,7 @@ description: Catizen是一款以猫为主题的游戏，融合了GameFi、AI和�
 const links = [
   { name: 'catizen.ai', url: 'https://catizen.ai/' },
   { name: 'X', url: 'https://x.com/CatizenAI' },
+  { name: 'Doc', url: 'https://docs.catizen.ai/' },
   { name: 'Telegram', url: 'https://t.me/CatizenAnn' },
   { name: 'Rootdata', url: 'https://www.rootdata.com/zh/Projects/detail/Catizen?k=ODI3OQ%3D%3D' },
 ]

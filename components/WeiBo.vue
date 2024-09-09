@@ -33,6 +33,7 @@
           :preview-src-list="[`${staticUrl}/weibo/${picPrefix}/${key}.jpg`]"
           alt=""
           lazy
+          fit="cover"
           class="pic-item"
           @click="onPreviewImg"
         />
@@ -73,7 +74,7 @@ const getCreateTime = computed(() => {
   }
 })
 
-const staticUrl = 'https://static.onev.top/'
+const staticUrl = 'https://static.onev.top'
 
 const onPreviewImg = () => {}
 </script>

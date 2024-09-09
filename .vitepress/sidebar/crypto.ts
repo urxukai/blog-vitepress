@@ -14,7 +14,7 @@ export const crypto = [
       { text: '🐔 deBridge', link: '/crypto/projects/solana/deBridge.md' },
       { text: '🦣 Drift', link: '/crypto/projects/solana/drift.md' },
       { text: '🐵 Solayer', link: '/crypto/projects/solana/solayer.md' },
-      { text: '🦊 Zeta Markets', link: '/crypto/projects/solana/zetaMarkets.md' },
+      { text: '🦊 Zeta Markets', link: '/crypto/projects/solana/zetaMarkets.md' }
     ]
   },
   {
@@ -22,13 +22,13 @@ export const crypto = [
     collapsed: false,
     items: [
       { text: '🦁 EigenLayer', link: '/crypto/projects/eth/eigenLayer.md' },
+      { text: '⛹️‍♂️ Story', link: '/crypto/projects/eth/story.md' },
+      { text: '🐏 Balance', link: '/crypto/projects/eth/balance.md' }
     ]
   },
   {
     text: 'TON',
     collapsed: false,
-    items: [
-      { text: '🐱 Catizen', link: '/crypto/projects/ton/catizen.md' },
-    ]
+    items: [{ text: '🐱 Catizen', link: '/crypto/projects/ton/catizen.md' }]
   }
 ]

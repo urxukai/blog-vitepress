@@ -67,6 +67,10 @@ const coinFinance = [
 ]
 const activities = [
   {
+    timestamp: '2024-09-08 00:00:00',
+    content: 'io.net开始质押计划，质押相应IO才能获得区块奖励',
+  },
+  {
     timestamp: '2024-08-23',
     content: 'io.net推出质押计划，通过将设备质押在IO网络中可获得区块奖励',
   },
