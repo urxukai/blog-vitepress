@@ -4,6 +4,7 @@ dist
 
 .vitepress/dist
 .vitepress/cache/*
+.vitepress/utils/uploadToAli.ts
 
 .local
 # local env files
