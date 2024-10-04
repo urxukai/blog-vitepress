@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "ali-oss": "^6.21.0",
-    "vitepress": "^1.3.2"
+    "vitepress": "^1.3.2",
+    "webpack-nexus-upload-plugin": "^1.0.0"
   },
   "scripts": {
     "dev": "npm run docs:dev",

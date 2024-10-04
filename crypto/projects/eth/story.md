@@ -20,6 +20,12 @@ title: Story Protocol
   </el-timeline-item>
 </el-timeline>
 
+## 策略
+
+1. Onchain Chronicles 地址：0xbf2575341e0882bbf6ca8769f39ee435fad8ee8d
+2. OG 身份
+3. 测试网交互
+
 ## 交互指南
 
 ### 一·交互准备

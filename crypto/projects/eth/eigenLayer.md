@@ -31,6 +31,10 @@ description: EigenLayer
 claim时间 2024年5月11号凌晨1点（北京时间）
 ```
 
+## 查询空投（不要链接钱包）
+
+checkeigen.byzantine.fi
+
 <script setup>
 const links = [
   { name: 'eigenlayer.xyz', url: 'https://www.eigenlayer.xyz/' },

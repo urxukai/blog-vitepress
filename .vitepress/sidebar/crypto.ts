@@ -22,8 +22,9 @@ export const crypto = [
     collapsed: false,
     items: [
       { text: '🦁 EigenLayer', link: '/crypto/projects/eth/eigenLayer.md' },
-      { text: '⛹️‍♂️ Story', link: '/crypto/projects/eth/story.md' },
-      { text: '🐏 Balance', link: '/crypto/projects/eth/balance.md' }
+      { text: '⛹️‍♂️ Story Protocol', link: '/crypto/projects/eth/story.md' },
+      { text: '🐏 Balance', link: '/crypto/projects/eth/balance.md' },
+      { text: '🐌 Hemi', link: '/crypto/projects/eth/hemi.md' }
     ]
   },
   {
