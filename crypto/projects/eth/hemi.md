@@ -4,8 +4,8 @@ description: Hemi Network 是一个模块化的第 2 层网络，可促进由比
 ---
 
 <PageHeader
-  logo="/public/images/hemi/logo.svg"
-  coverImg="/public/images/hemi/cover.jpeg"
+  logo="/images/hemi/logo.svg"
+  coverImg="/images/hemi/cover.jpeg"
   :links="links"
 />
 
