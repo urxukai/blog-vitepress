@@ -29,9 +29,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Crypto', link: '/crypto/projects/solana/ionet.md' },
+      { text: 'Crypto', link: '/crypto/airdrop.md' },
       { text: 'Develop', link: '/develop/前端开发规范.md' },
-      { text: 'Weibo', link: '/weibo/2407-2408.md' },
+      // { text: 'Weibo', link: '/weibo/2407-2408.md' },
       { text: 'Other', link: '/other/twitter.md' }
     ],
 

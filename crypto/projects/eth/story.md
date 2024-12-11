@@ -67,6 +67,18 @@ title: Story Protocol
 官网：https://blockbook.app
 上传内容：可以选择上传视频、图片、音频、文本
 
+## 奥德赛
+
+### mint Odyssey Badge
+
+https://mint.story.foundation/
+
+### 查看有哪些徽章
+
+https://youbadge.catsmile.site/
+
+https://story-badge-checker.vercel.app/
+
 <script setup>
 const links = [
   { name: 'storyprotocol.xyz', url: 'https://www.storyprotocol.xyz/' },

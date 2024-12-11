@@ -6,8 +6,13 @@
 
 export const crypto = [
   {
-    text: 'SOLANA',
+    text: 'Airdrop',
     collapsed: false,
+    items: [{ text: '☂️ Airdrop Projects', link: '/crypto/airdrop.md' }]
+  },
+  {
+    text: 'SOLANA',
+    collapsed: true,
     items: [
       { text: '🐹 IO.NET', link: '/crypto/projects/solana/ionet.md' },
       { text: '🐰 NX Finance', link: '/crypto/projects/solana/nxFinance.md' },
@@ -20,22 +25,28 @@ export const crypto = [
   },
   {
     text: 'ETH',
-    collapsed: false,
+    collapsed: true,
     items: [
       { text: '🦁 EigenLayer', link: '/crypto/projects/eth/eigenLayer.md' },
       { text: '⛹️‍♂️ Story Protocol', link: '/crypto/projects/eth/story.md' },
       { text: '🐏 Balance', link: '/crypto/projects/eth/balance.md' },
-      { text: '🐌 Hemi', link: '/crypto/projects/eth/hemi.md' }
+      { text: '🐌 Hemi', link: '/crypto/projects/eth/hemi.md' },
+      { text: '🐥 sonic', link: '/crypto/projects/eth/sonic.md' }
     ]
   },
   {
     text: 'TON',
-    collapsed: false,
+    collapsed: true,
     items: [{ text: '🐱 Catizen', link: '/crypto/projects/ton/catizen.md' }]
   },
   {
     text: 'SUI',
-    collapsed: false,
+    collapsed: true,
     items: [{ text: '🦋 SuiMine', link: '/crypto/projects/sui/suimine.md' }]
+  },
+  {
+    text: 'TOOL',
+    collapsed: true,
+    items: [{ text: '🦄 GMGN', link: '/crypto/tool/gmgn.md' }]
   }
 ]

@@ -65,10 +65,40 @@
 .VPNavBarTitle .title {
   font-family: HYPixel;
   font-weight: bolder;
-  background: -webkit-linear-gradient(315deg, rgb(210, 86, 53) 10%, #41d1ff 50%, #bd34fe 90%);
+  /* background: -webkit-linear-gradient(315deg, rgb(210, 86, 53) 10%, #41d1ff 50%, #bd34fe 90%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite; */
+}
+
+/* 首页渐变背景动画 gradient-body */
+body:has(.VPContent.is-home) {
+  background-color: #fff;
+  background-image: radial-gradient(closest-side, #deff93, rgba(222, 255, 147, 0)), radial-gradient(closest-side, #c6befc, rgba(198, 190, 252, 0)),
+    radial-gradient(closest-side, #deff93, rgba(222, 255, 147, 0)), radial-gradient(closest-side, #c6befc, rgba(198, 190, 252, 0)), radial-gradient(closest-side, #deff93, rgba(222, 255, 147, 0));
+  background-size: 130vmax 130vmax, 80vmax 80vmax, 90vmax 90vmax, 110vmax 110vmax, 90vmax 90vmax;
+  background-position: -80vmax -80vmax, 60vmax -30vmax, 10vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+  background-repeat: no-repeat;
+  animation: movement 4s linear infinite;
+}
+@keyframes movement {
+  0%,
+  100% {
+    background-size: 130vmax 130vmax, 8 0vmax 80vmax, 90vmax 90vmax, 110vmax 110vmax, 90vmax 90vmax;
+    background-position: -80vmax -80vmax, 60vmax -30vmax, 10vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+  }
+  25% {
+    background-size: 100vmax 100vmax, 90vmax 90vmax, 100vmax 100vmax, 90vmax 90vmax, 60vmax 60vmax;
+    background-position: -60vmax -90vmax, 50vmax -40vmax, 0 -20vmax, -40vmax -20vmax, 40vmax 60vmax;
+  }
+  50% {
+    background-size: 80vmax 80vmax, 110vmax 110vmax, 80vmax 80vmax, 60vmax 60vmax, 80vmax 80vmax;
+    background-position: -50vmax -70vmax, 40vmax -30vmax, 10vmax 0, 20vmax 10vmax, 30vmax 70vmax;
+  }
+  75% {
+    background-size: 90vmax 90vmax, 90vmax 90vmax, 100vmax 100vmax, 90vmax 90vmax, 70vmax 70vmax;
+    background-position: -50vmax -40vmax, 50vmax -30vmax, 20vmax 0, -10vmax 10vmax, 40vmax 60vmax;
+  }
 }

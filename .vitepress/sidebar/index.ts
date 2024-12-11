@@ -6,13 +6,13 @@
 import { test } from './test'
 import { develop } from './develop'
 import { crypto } from './crypto'
-import { weibo } from './weibo'
+// import { weibo } from './weibo'
 import { other } from './other'
 
 export default {
   '/test/': test,
   '/develop/': develop,
   '/crypto/': crypto,
-  '/weibo/': weibo,
+  // '/weibo/': weibo,
   '/other/': other
 }
