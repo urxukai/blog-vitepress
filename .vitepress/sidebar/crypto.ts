@@ -8,7 +8,18 @@ export const crypto = [
   {
     text: 'Airdrop',
     collapsed: false,
-    items: [{ text: '☂️ Airdrop Projects', link: '/crypto/airdrop.md' }]
+    items: [
+      { text: '☂️ Airdrop Projects', link: '/crypto/airdrop.md' },
+      { text: '🎂 空投检查器', link: '/crypto/airdropCheck.md' }
+    ]
+  },
+  {
+    text: 'PUBLIC',
+    collapsed: false,
+    items: [
+      { text: '🦀 Infinex', link: '/crypto/projects/public/infinex.md' },
+      { text: '🐨 Sentient', link: '/crypto/projects/public/sentient.md' }
+    ]
   },
   {
     text: 'SOLANA',
@@ -20,28 +31,31 @@ export const crypto = [
       { text: '🦣 Drift', link: '/crypto/projects/solana/drift.md' },
       { text: '🐵 Solayer', link: '/crypto/projects/solana/solayer.md' },
       { text: '🦊 Zeta Markets', link: '/crypto/projects/solana/zetaMarkets.md' },
-      { text: '🐧 jupiter', link: '/crypto/projects/solana/jupiter.md' }
+      { text: '🐧 Jupiter', link: '/crypto/projects/solana/jupiter.md' }
     ]
   },
   {
     text: 'ETH',
-    collapsed: true,
+    collapsed: false,
     items: [
       { text: '🦁 EigenLayer', link: '/crypto/projects/eth/eigenLayer.md' },
       { text: '⛹️‍♂️ Story Protocol', link: '/crypto/projects/eth/story.md' },
       { text: '🐏 Balance', link: '/crypto/projects/eth/balance.md' },
       { text: '🐌 Hemi', link: '/crypto/projects/eth/hemi.md' },
-      { text: '🐥 sonic', link: '/crypto/projects/eth/sonic.md' }
+      { text: '🐥 sonic', link: '/crypto/projects/eth/sonic.md' },
+      { text: '🍀 Abstract', link: '/crypto/projects/eth/abstract.md' },
+      { text: '🦚 Eclipse', link: '/crypto/projects/eth/eclipse.md' },
+      { text: '👨‍💻‍ Soneium', link: '/crypto/projects/eth/soneium.md' }
     ]
   },
   {
     text: 'TON',
-    collapsed: true,
+    collapsed: false,
     items: [{ text: '🐱 Catizen', link: '/crypto/projects/ton/catizen.md' }]
   },
   {
     text: 'SUI',
-    collapsed: true,
+    collapsed: false,
     items: [{ text: '🦋 SuiMine', link: '/crypto/projects/sui/suimine.md' }]
   },
   {

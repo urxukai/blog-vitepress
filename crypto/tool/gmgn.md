@@ -1,6 +1,6 @@
 ---
-title: Balance
-description: Balance
+title: GMGN
+description: GMGN
 ---
 
 <PageHeader
@@ -11,7 +11,5 @@ description: Balance
 
 <script setup>
 const links = [
-  { name: 'balance.fun', url: 'https://balance.fun/' },
-  { name: 'X', url: 'https://x.com/Balance_Games' },
 ]
 </script>

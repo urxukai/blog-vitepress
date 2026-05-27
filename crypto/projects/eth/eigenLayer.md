@@ -7,6 +7,7 @@ description: EigenLayer
   logo="/images/eigenLayer/logo.png"
   coverImg="/images/eigenLayer/cover.jpeg"
   :links="links"
+  :online="true"
 />
 
 ## 代币经济模型

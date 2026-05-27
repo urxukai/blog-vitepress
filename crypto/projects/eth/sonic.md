@@ -7,6 +7,7 @@ description:
   logo="/images/sonic/logo.jpg"
   coverImg="/images/sonic/cover.jpeg"
   :links="links"
+  :online="true"
 />
 
 ## 交互指南

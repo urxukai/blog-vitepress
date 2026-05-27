@@ -67,6 +67,28 @@ title: Story Protocol
 官网：https://blockbook.app
 上传内容：可以选择上传视频、图片、音频、文本
 
+Spotlight（Memecoin 平台）
+右上角链接钱包，点黄色 Create Token，填入相关信息后确认上链。回到主页点一下 Faucet，领 200 枚 USDC 测试币。
+传送门：http://app.spotlightprotocol.com/tokens
+
+Standard Protocol 订单簿 Dex
+https://app.standardweb3.com/trade
+
+@BenjaminOnIP
+https://benjamin.unleashprotocol.xyz/
+
+质押
+
+https://www.verio.network/catalog
+
+story 币安合作的徽章
+
+https://stability.story.foundation
+
+域名
+
+https://storyname.space/
+
 ## 奥德赛
 
 ### mint Odyssey Badge

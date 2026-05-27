@@ -3,11 +3,21 @@ title: Soneium
 description: Soneium
 ---
 
-<!-- <PageHeader
-  logo="/images/eigenLayer/logo.png"
-  coverImg="/images/eigenLayer/cover.jpeg"
+<PageHeader
+  logo="/images/soneium/favicon.ico"
+  coverImg="/images/soneium/cover.jpeg"
   :links="links"
-/> -->
+/>
+
+## Intract 任务
+
+https://quest.intract.io/quest/678e234fee5284da60a21582
+
+## 银河任务
+
+https://app.galxe.com/quest/Soneium/GC9xgtpLKG
+
+# 测试网
 
 ►Soneiuml 官网 ：https://soneium.org/en/
 
@@ -26,8 +36,8 @@ https://www.alchemy.com/faucets/ethereum-sepolia
 
 <script setup>
 const links = [
-  { name: 'eigenlayer.xyz', url: 'https://www.eigenlayer.xyz/' },
-  { name: 'Claim', url: 'https://claims.eigenfoundation.org/' },
+  { name: 'soneium.org', url: 'https://www.soneium.org/' },
+  { name: 'X', url: 'https://x.com/soneium' },
 ]
 </script>
 
